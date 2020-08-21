@@ -3,7 +3,7 @@
 int main()
 {
     int choice;
-    printf("Enter your choice: \n1 for porotta \n2 for Biriyani \n3 for Kuboos&alfam \n");
+    printf(" \n1 for porotta \n2 for Biriyani \n3 for Kuboos&alfam \nEnter your choice:\n");
     scanf("%d",&choice);
     switch(choice)
     {
@@ -20,8 +20,11 @@ int main()
         case 3:
         {
             printf("You have selected Kubboos&alfam");
+         
 
         }
+        default:
+            printf("the choice is invalid");
     }
  
 }
